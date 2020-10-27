@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Piazzolla', serif;
+
+
+}
+
+header{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: auto;
+background: #EDD823;
+}
+
+nav ul  {
+	display: flex;
+	align-items: center;
+	align-content: space-between;
+	padding: 10px;
+	margin: 15px;
+	transition: all .5s;
+}
+nav ul li{
+	padding: 10px;
+	margin: 10px;
+	list-style: none;
+}
+.logo{
+	display: flex;
+}
+.logo p{
+	padding: 20px;
+	color: black;
+	font-size: 20px;
+ font-family: 'Vampiro One', cursive;
+ margin: 20px;
+
+
+}
+
+.logo img{
+	background-size: cover;
+	height: 40pc;
+	height: 30px;
+	margin-top: 30px;
+}
+nav ul li a{
+	display: inline-block;
+	width: 100PX;
+	height: 10px;
+	text-decoration: none;
+	align-items: center;
+	color: black;
+	padding: 10px;
+
+
+	}
+
+body{
+background-color:#A5EC70;
+
+	</*
+	background-image: url("../img/b1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; */>
+}
+
+nav ul li a:hover{
+border-bottom: 3px solid black;
+}
+
+.section{
+	width: 80%;
+display: flex;
+height: 100vh;
+margin-right: 200px;
+
+}
+
+.section form{
+	position: relative;
+min-width: 500px;
+height: 350px;
+padding: 20px;
+margin: 30px;
+background: #EEDDD5;
+border-radius: 30px;
+opacity: 0.9;
+margin-bottom: 40px;
+
+}
+.section form input{
+
+width: 100%;
+padding: 3px;
+margin: 3px;
+outline: 1px solid yellow;
+	
+}
+
+.img  img {
+	margin-left: 150px;
+
+
+}
+
+.btn{
+	width: 100%;
+	border-radius: 30px;
+	background-color: #DE5250;
+	padding: 5px;
+	margin: 5px;
+
+}
+
+.btn:hover{
+	
+	background-color: #EEB06B;
+
+}
+
+footer  {
+width: 100%;
+position: absolute;
+display: flex;
+background-color:#C691F7 ;
+height: 150px;
+align-content: center;
+margin-top: 500px;
+margin-right: 200px;
+}
+
+
+ footer .icons ul li {
+list-style: none;
+margin-left: 40px;
+ }
+
+
+
+
+footer .footer p {
+margin-left :500px;
+padding: 20px;
+font-size: 20px;
+}
+.btn-2{
+	width: 70%;
+	border-radius: 30px;
+	background-color: #DE5250;
+	padding: 10px;
+	margin: 200px;
+
+
+}
+.btn-2:hover{
+	background: #FAC6A2;
+
+
+}
